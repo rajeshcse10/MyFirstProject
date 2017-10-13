@@ -207,7 +207,13 @@
 				TargetAttributes = {
 					18DBB7791F6C224500198A1A = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YF9ES6Q873;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					18DBB7921F6C224500198A1A = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -426,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YF9ES6Q873;
 				INFOPLIST_FILE = MyFirstProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SRBD.MyFirstProject;
@@ -437,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YF9ES6Q873;
 				INFOPLIST_FILE = MyFirstProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SRBD.MyFirstProject;
@@ -509,6 +517,7 @@
 				18DBB7A91F6C224600198A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DBB7AA1F6C224600198A1A /* Build configuration list for PBXNativeTarget "MyFirstProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +526,7 @@
 				18DBB7AC1F6C224600198A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DBB7AD1F6C224600198A1A /* Build configuration list for PBXNativeTarget "MyFirstProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				18DBB7AF1F6C224600198A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
